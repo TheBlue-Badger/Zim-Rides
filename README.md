@@ -5,7 +5,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend Core:** HTML5, CSS3, JavaScript 
 - **Styling Architecture:** Modern CSS Grid & Flexbox, Custom Properties (`:root` variables), Dark Glassmorphic Design System
@@ -15,13 +15,13 @@
 
 ---
 
-## ⚙️ Key Features & Technical Details
+## Key Features & Technical Details
 
-### Scroll-Aware Dynamic Navigation
+### Scroll Aware Dynamic Navigation
 - **Sticky & Reactive Header:** Listens for scroll position (`window.scrollY > 60`) using passive event listeners for high FPS performance, toggling background glassmorphism dynamically.
 - **Active Section Tracker:** Dynamically highlights header navigation items as the user scrolls past corresponding section boundaries (`section[id]`).
 
-### High-Performance Intersection Observer Animations
+### High Performance Intersection Observer Animations
 - **Scroll Reveals:** Employs the `Intersection Observer API` to trigger fluid fade and slide animations (`.reveal`) when elements enter the viewport threshold, bypassing expensive legacy scroll listener loops.
 - **Mathematical Numerical Counters:** Stat counters utilize `requestAnimationFrame` with a custom cubic ease  out function (`1 - Math.pow(1 - progress, 3)`) to smoothly animate figures upon scroll reveal
 
