@@ -1,5 +1,5 @@
 /* ============================================
-   ZimRide — App Controller
+   Boss Yellow Taxi — App Controller
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
