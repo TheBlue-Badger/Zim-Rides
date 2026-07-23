@@ -1,26 +1,26 @@
 /* ============================================
-   Boss Yellow Taxi — Premium Transport & Delivery
+   Boss Yellow Taxi, Premium Transport & Delivery
    Design System
    ============================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap');
 
-/* --- Design Tokens --- */
+
 :root {
-  /* Primary Palette — warm dark theme with golden accents */
+  /* Primary Palette  */
   --clr-bg:        hsl(225, 22%, 6%);
   --clr-bg-alt:    hsl(225, 20%, 9%);
   --clr-surface:   hsl(225, 18%, 12%);
   --clr-surface-2: hsl(225, 16%, 16%);
   --clr-border:    hsl(225, 14%, 20%);
 
-  /* Accent — Warm Gold */
+  /* Accent -Warm Gold */
   --clr-accent:       hsl(42, 92%, 56%);
   --clr-accent-light: hsl(42, 95%, 65%);
   --clr-accent-dark:  hsl(42, 85%, 42%);
   --clr-accent-glow:  hsla(42, 92%, 56%, .22);
 
-  /* Secondary — Cool Teal */
+  /* Secondary -Cool Teal */
   --clr-secondary:    hsl(175, 65%, 45%);
   --clr-secondary-glow: hsla(175, 65%, 45%, .15);
 
